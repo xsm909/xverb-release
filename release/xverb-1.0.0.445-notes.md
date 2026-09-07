@@ -1,0 +1,32 @@
+# xverb 1.0.0.445
+
+- Four parts, four constants, and the packer reads them by name
+- There is no donate link, and the reason is written where it was
+- The plugin API version is the major, and not a number beside it
+- A script that assembles the public tree, and the check it will not publish past
+- The About card knows where the site is
+- The quotes are out of the code again
+- The window goes when it is closed, not when the process is done
+- The name is Xverb everywhere it is written
+- The drawings are in the project, and the alpha rules are held
+- The icon is his orange
+- The mark on the About card is twice the size
+- X2D, and his mark on a green plate
+- A pinned row can be carried into the order you want
+- Both panels count, and a folder can be pinned
+- The minute belongs to the stay, not to one stretch of it
+- The history counted nothing after the first time you looked away
+- The About card does not dim what it is over
+- The history survives being closed
+- Iceland
+- The glacier, and the name in one colour everywhere
+- The About card comes up when the application does
+- An About form, shaped the way Blender's splash is
+- A minute in a folder is what gets it into the history
+- One list of ten, and a cross to take a row out of it
+- The disks that are plugged in are in the drive list
+- A stick put in while the menu is open turns up in it
+- The drive list asks the machine what is plugged in
+- The history counts where you stayed, not where you walked
+- The scrollbar belongs to the window, not to the text
+- The reading scrolls as far as its widest line, and no further

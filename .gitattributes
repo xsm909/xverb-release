@@ -1,0 +1,20 @@
+# Line endings, decided here rather than by whoever checked this out.
+#
+# install.sh is the file the one-line install fetches and hands to `sh` on a
+# machine that has nothing else. With CRLF endings the shell reads the carriage
+# return as part of the last word on the line and refuses `set -eu` as an
+# illegal option — an installer that is correct in the repository and broken on
+# the target machine. It has happened once already, on the first Linux release.
+#
+# The archives are binary and text=auto leaves them alone.
+* text=auto eol=lf
+
+# PowerShell reads either, and install.ps1 is the one a person might open in
+# Notepad on a machine with nothing installed.
+*.ps1 text eol=crlf
+
+# Nothing here may be normalised on the way in or out: a byte changed in an
+# archive is an archive that fails its own checksum.
+*.tar.gz -text
+*.zip -text
+*.sha256 text eol=lf
