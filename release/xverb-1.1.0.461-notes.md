@@ -1,0 +1,22 @@
+# xverb 1.1.0.461
+
+- Help checks for updates when asked, and says what it found
+- A file with no picture is a page of itself on the strip, its name a hint away
+- The .blend specification draws the rig, and knows where its bones are kept
+- A file that holds only a skeleton draws the skeleton
+- Textures were out of scope in the .blend specification, and should not have been
+- The .blend specification records what building it changed
+- The middle button moves the model, and a slow file says it is being read
+- A model goes on the graphics card where there is one
+- A clock on the path bar is the quick way back through the history
+- The command line folds away on a share instead of vanishing
+- No login or password where a path is shown, and no command line on a share
+- The history offers to add the folder you are in
+- Every folder in the history can be carried, and a rule closes the pins
+- Pictures open at 1:1, and the switch says 1:1
+- An update that stops says where it stopped, and the Windows one no longer hangs
+- The title bar says XV
+- The analyzer has nothing to say about the published source
+- An empty clone is not a stranger's folder
+- The publish check reads four rules, not one alphabet
+- A comment carries the argument, not who made it

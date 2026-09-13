@@ -59,10 +59,11 @@ offered the object code from a place must be offered the corresponding source
 from the same place. Every build here is reproducible from the archive beside
 it.
 
-**It arrives with the first release made after the source repository opens**,
-which has not happened yet. Until then, ask and it will be sent: the archive for
-every version published here is kept, and the licence below stands whether the
-repository is open or not.
+**It is here from 1.1.0.461 on**, beside every release that follows. It is the
+public tree, not the development repository: the files the application is built
+from, assembled by `tool/publish.dart` out of the same commit as the binaries
+beside it, and no history. For the two releases published before it, 1.0.0.445
+and 1.0.0.448, ask and it will be sent.
 
 ## Licence
 
