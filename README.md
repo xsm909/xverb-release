@@ -31,12 +31,17 @@ when uninstalling.
 Per release, one archive per platform, each with the SHA-256 beside it:
 
 ```
-xverb-1.0.0.445-macos-arm64.tar.gz     + .sha256
-xverb-1.0.0.445-linux-x64.tar.gz       + .sha256
-xverb-1.0.0.445-windows-x64.zip        + .sha256
-xverb-1.0.0.445-source.tar.gz          + .sha256
-xverb-1.0.0.445-notes.md
+xverb-1.1.0.477-macos-arm64.tar.gz     + .sha256
+xverb-1.1.0.477-linux-x64.tar.gz       + .sha256
+xverb-1.1.0.477-windows-x64.zip        + .sha256
+xverb-1.1.0.477-source.tar.gz          + .sha256
+xverb-1.1.0.477-notes.md
 ```
+
+Each release also has a page under
+[Releases](https://github.com/xsm909/xverb-release/releases), with its notes and
+the same files. The installers read this folder, not those pages, so the
+folder is the one that is always complete.
 
 **Versions are `A.B.C.D`,** and each part promises something different:
 
@@ -44,12 +49,16 @@ xverb-1.0.0.445-notes.md
 |---|---|
 | **A** | the contract between the application and its plugins breaks. A plugin written for `apiVersion: 1` runs on every `1.x`, and on no other major |
 | **B** | something is in the program that was not there before |
-| **C** | there is a release, which is what these files are |
+| **C** | a release is worth talking about — a name to say, not a gate |
 | **D** | every build |
 
-The newest release is simply the largest version here, compared number by
-number — that is all an installer has to know. There is no index to keep in step
-and nothing to parse.
+**Any build published here is an update**, whichever part of it moved: a copy
+that is already installed offers it. The newest release is simply the largest
+version here, compared number by number — that is all an installer has to know.
+There is no index to keep in step and nothing to parse.
+
+Releases are named after places, with a photograph of the place on the About
+card; the builds of 1.1.0 are **Iceland**.
 
 ## The source beside the binaries
 
