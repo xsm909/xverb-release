@@ -1,0 +1,22 @@
+# xverb 1.1.0.497
+
+- Every page a plugin draws says which plugin, which version, and what changed
+- A page keeps the keyboard after a window over it closes
+- Only a workbook of several pages stands clear of the strip
+- A sheet's status line stands clear of the strip, so its pill can be pressed
+- A table has a face on the strip: the head of the sheet, drawn small
+- A sheet keeps the widths it was given, and a view's sheet pages like a viewer's
+- A sheet draws joined cells as one, marks notes, and keeps hidden what the file hides
+- A sheet has a status line: where, what the cell says, and what the numbers come to
+- A plugin hears what is done with its sheet: its own menu rows, the selection, Enter
+- A sheet freezes rows and columns up to a cell, and hides columns
+- A sheet has a menu: copy four ways, select, sort, find, fit, and say whether there is a header
+- A sheet is sorted by a column, for looking, with the file left as it is
+- A plugin's sheet is shown before it has been read, and its cells can be bold
+- Up and down walk what a search found; a sheet lets the window show through
+- A sheet is searched and copied: Ctrl+F through every row, Ctrl+C for a spreadsheet, Ctrl+Shift+C as JSON
+- A plugin can hand over a sheet, a page of a workbook at a time
+- A sheet is worked with the keys and the mouse: cells, rows, columns, ranges
+- F3 on a CSV draws a sheet: headings, row numbers, every row there is
+- A CSV of a million rows opens in 48 ms and counts itself in the background
+- A sheet knows what is selected in it: cells, rows, columns, several at once
